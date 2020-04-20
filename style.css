@@ -1,0 +1,123 @@
+body {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 1% 15% 3% 7% 7% 7% 16% 9% 12% 12%;
+/* Add some dimension and color for us to see it better */
+grid-column-gap: 14pt;
+grid-row-gap: 2pt;
+  width: 500pt;
+  height: 600pt;
+  border: solid red 1pt;
+  
+}
+/*
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+}
+*/
+/*----
+a {
+  width: 20px;
+  max-height: 20px;
+}
+
+---*/
+.image_dak {
+  grid-column: 1/1;
+  grid-row: 2/3;
+  padding-top: 20px;
+}
+
+.phoneim {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+.title {
+  grid-column: 1/1;
+  grid-row: 4/4;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.intro {
+  grid-column: 2/2;
+  grid-row: 4/4;
+  padding-top: 20px;
+  padding-right: 25px;
+  font-size: 12px;
+  color: grey;
+}
+
+.underline2 {
+  grid-column: 2/2;
+  grid-row: 3/3;
+}
+.backg {
+  background-color: rgb(74, 149, 173);
+  grid-column-start: 1/1;
+  grid-row: 5/12;
+  text-align: center;
+}
+h1 {
+  text-size-adjust: 50px;
+}
+
+.expert{
+ grid-column: 2/2;
+ grid-row: 5/5;
+ padding-top: 20px;
+  padding-right: 25px;
+  font-size: 14px;
+
+
+}
+.history{
+  grid-column: 2/2;
+  grid-row: 7/8;
+  padding-top: 18px;
+   padding-right: 25px;
+   font-size: 14px;
+   color: grey;
+}
+.educate{
+  grid-column: 2/2;
+  grid-row: 10/10;
+  padding-top: 8px;
+   padding-right: 25px;
+   font-size: 14px;
+   color: grey
+
+}
+
+/* Section for Name Only*/
+.new-item {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 30px;
+  padding: 10px 10px;
+}
+
+ul {
+  font-size: 12px;
+  color: grey;
+}
+
+p {
+  font-size: 12px;
+  color: grey;
+  font-style:normal;
+}
+
+a {
+  font-size: 14px;
+  font-style: oblique;
+  color: black;
+}
