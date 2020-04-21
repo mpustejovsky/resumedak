@@ -7,7 +7,7 @@ grid-column-gap: 14pt;
 grid-row-gap: 2pt;
   width: 500pt;
   height: 600pt;
-  border: solid red 1pt;
+  border: solid blue 1pt;
   
 }
 /*
@@ -65,6 +65,8 @@ a {
   grid-column-start: 1/1;
   grid-row: 5/12;
   text-align: center;
+  color: white;
+  font-size: 12px;
 }
 h1 {
   text-size-adjust: 50px;
@@ -117,7 +119,18 @@ p {
 }
 
 a {
-  font-size: 14px;
+  font-size: 16px;
   font-style: oblique;
   color: black;
+}
+
+code {
+  font-size: 12px;
+  color:grey;
+}
+
+small {
+  font-size: 18px;
+  color: white;
+  font-style: oblique;
 }
